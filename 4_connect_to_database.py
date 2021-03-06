@@ -3,7 +3,7 @@ mydb = mysql.connector.connect(
   host="localhost",
   user="yourusername",
   password="yourpassword",
-  database="codebugged"
+  database="sensor_data"
 )
 mycursor = mydb.cursor()
 #create a table
