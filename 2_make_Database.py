@@ -5,4 +5,4 @@ mydb = mysql.connector.connect(
   password="yourpassword"
 )
 mycursor = mydb.cursor()
-mycursor.execute("CREATE DATABASE sensor_data")
+mycursor.execute("CREATE DATABASE sensor_data") # creating a database as sensor_data
